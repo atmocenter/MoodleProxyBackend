@@ -1,0 +1,56 @@
+# ===========================
+# 🔹 Node.js Dependencies 🔹
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===========================
+# 🔹 Environment Variables 🔹
+# ===========================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ===========================
+# 🔹 Logs & Debug Files 🔹
+# ===========================
+logs/
+*.log
+*.out
+*.pid
+*.seed
+*.gz
+logfiles/
+
+# If using Winston or another logger
+*.log.*
+
+# ===========================
+# 🔹 OS-Specific Files 🔹
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# 🔹 Editor & IDE Files 🔹
+# ===========================
+.vscode/
+.idea/
+*.sublime-workspace
+
+# ===========================
+# 🔹 Build/Generated Files 🔹
+# ===========================
+dist/
+build/
+tmp/
+cache/
+coverage/
